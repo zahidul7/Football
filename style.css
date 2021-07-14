@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+
+
+
+
+ /*----------------------------------------
+              Header Start 
+ ------------------------------------------*/
+
+ #header{
+     background-color: #2D25A0;
+ }
+ .header-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 20px;
+     width: 90%;
+     margin: 0 auto;
+     padding-top: 30px;
+     align-items: center;
+ }
+ .header-text{
+     color: #FFFFFF;
+     
+ }
+ .header-text h1{
+     font-size: 60px;
+     line-height: 80px;
+     margin-bottom: 20px;
+ }
+ .header-text a{
+     color:#fff;
+     background-color: #E02C6D;
+     padding: 10px 30px;
+     text-decoration: none;
+     font-size: 16px;
+     border-radius: 5px;
+      
+ }
+ #header:hover .header-img {
+     transform: scale(+.5);
+     transform-origin: 90deg;
+ }
+ 
+ .header-text i{
+     margin-left: 10px;
+ }
+ 
+ .header-img img{
+     width: 100%;
+     overflow: hidden;
+     transition: transform linear 3s;
+     
+ }
+ 
+ 
+ /*--------------------------------------
+                 Header End 
+ -----------------------------------------*/
+ 
+
+
+
+
+
+
+ /*------------------------------------------
+                 Player Start 
+ --------------------------------------------*/
+ #players-blogs{
+     margin:50px 0;
+ }
+ .players-blogs-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     width: 80%;
+     margin: 0 auto;
+     grid-column-gap: 15px;
+     grid-row-gap: 15px;
+ }
+ .players-blogs-iteam{
+     padding: 15px;
+     box-shadow: 1px 1px 4px 2px #F6F6F6;
+ }
+ .player-blog-img img{
+     width: 100%;
+ }
+ /*--------------------------------------
+               player End 
+ ----------------------------------------*/
+ 
+
+
+
+
+
+ /*---------------------------------------
+                players Photo Start 
+ ------------------------------------------*/
+ #players-Photo-gellery{
+     margin-top: 60px;
+ }
+ #players-Photo-gellery h1{
+     font-size: 36px;
+     color: #E02C6D;
+     text-align: center;
+     margin-bottom: 15px;
+ }
+ #players-Photo-gellery p{
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ .players-photo-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     width: 80%;
+     margin: 0 auto;
+     grid-row-gap: 15px;
+     grid-column-gap: 15px;
+ }
+ .players-photo-container img{
+     width: 100%;
+     border-radius: 5px;
+     box-shadow: 1px 1px 4px 2px #F6F6F6;
+ }
+ 
+ /*----------------------------------------
+                   players Photo End 
+ -------------------------------------------*/
+ 
+
+
+
+
+ /*------------------------------------------
+                    Highlights Start 
+ --------------------------------------------*/
+ #match-highlights{
+     margin:50px 0;
+ }
+ .match-highlights-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     width: 80%;
+     margin: 0 auto;
+     grid-column-gap: 24px;
+     align-items: center;
+ }
+ .match-highlights-text h1{
+     font-size: 48px;
+     line-height: 60px;
+ }
+ .match-highlights-text p{
+     margin: 30px 0;
+     line-height: 28px;
+     font-size: 16px;
+ }
+ .match-highlights-text a{
+     color:#fff;
+     background-color: #E02C6D;
+     padding: 10px 30px;
+     text-decoration: none;
+     font-size: 16px;
+     border-radius: 5px;
+ }
+ .match-highlights-text i{
+     margin-left: 5px;
+ }
+ .match-highlights-img img{
+ width: 100%;
+ }
+ /*-----------------------------------------
+                     Highlights End 
+ ---------------------------------------------*/
+
+
+
+
+
+
+
+ /*-------------------------------------------------
+                        Footer Strat 
+ -----------------------------------------------------*/
+ .footer-container{
+     width: 100%;
+     position: relative;
+     align-items: center;
+ }
+ .footer-logo{
+     display: flex;
+     justify-content: center;
+ }
+ .footer-item i{
+     width: 100%;
+ }
+ .footer-icon{
+     display: flex;
+     justify-content: center;
+ 
+ }
+ 
+ .footer-icon i{
+     height: 30px;
+     width: 30px; 
+ }
+ .footer-text p{
+     text-align: center;
+     margin-bottom: 50px;
+     padding-top: 20px;
+ }
+ 
+ /*--------------------------------------
+                Footer End 
+ ----------------------------------------*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*----------------------------------
+      Responsive Mobile  Style Start 
+ ------------------------------------*/
+ @media only screen and (max-width:688px){
+ 
+ /*-----------------Header Response Start -----------------*/
+ 
+     .header-container{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     align-items: center;
+     width: 100%;
+     padding: 1%;
+     }
+     .header-text h1 {
+     font-size: 36px;
+     line-height: 50px;
+     }
+     .header-img img {
+     width: 70%;
+     margin-top: 20px;
+     margin-left: 30px;
+     }
+     /*------------ Header Response Start -------------*/
+
+
+ 
+     /*--------------- Blogs Response start -------------*/
+ 
+     .blogs-container {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 90%;
+     margin: 0 auto;
+     grid-row-gap: 15px;
+     }
+ 
+     /*----------Blogs Response start ---------------*/
+ 
+     
+ 
+     /*-------------- Latest Response start --------------*/
+     .players-photo-container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 80%;
+     margin: 0 auto;
+     grid-row-gap: 15px;
+     grid-column-gap: 15px;
+     }
+     #players-Photo-gellery h1{
+     text-align: left;
+     margin-left: 34px;
+     }
+     #players-Photo-gellery p{
+     text-align: left;
+     margin-left: 34px;
+     }
+     /*--------------Latest Response End ---------------*/
+ 
+     .match-highlights-container {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 90%;
+     }
+     .match-highlights-text h1{
+     font-size: 30px;
+     line-height: 40px;
+     }
+     .match-highlights-text p{
+         font-size: 16px;
+         line-height: 28px;
+         margin-bottom: 20px;
+     }
+     .match-highlights-img img {
+         margin-top: 20px;
+     }
+     /*---------------Responsive footer Start -----------*/
+     
+     .footer-item img{
+         width: 120px;
+     }
+     .footer-icon{
+             margin-top: 30px;
+     }
+     /*-----------Responsive footer end -----------*/
+ }
+ 
+ /*-------------------------------------
+      Responsive Mobile  Style End 
+ ----------------------------------------*/
+ 
+ 
+ /*--------------------------------------- 
+ Responsive Tablet Start 
+ ----------------------------------------*/
+ @media only screen and (min-width:689px) and (max-width:992px) {
+      /*------------ header start  -----------*/
+    .header-container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 100%;
+     padding: 1%;
+     }
+     .header-img img {
+     width: 60%;
+     margin-top: 40px;
+     }
+     
+     .header-text h1 {
+     font-size: 36px;
+     line-height: 50px;}
+      /*------------ header end ----------- */
+
+
+
+     /*------- players start------- */
+     .players-blogs-container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     width: 90%;
+     margin: 0 auto;
+     grid-row-gap: 15px;
+     }
+     /*--------- players end ------------ */
+
+
+     /*--------- players photo start---------------- */
+    .players-photo-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     width: 80%;
+     margin: 0 auto;
+     grid-row-gap: 15px;
+     grid-column-gap: 15px;
+     }
+     #players-Photo-gellery h1{
+     text-align: left;
+     margin-left: 34px;
+     }
+     /*------------ players photo end --------------*/
+
+
+     /*-------------- higilight start  -------------------*/
+     .match-highlights-container {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 90%;
+     }
+     .match-highlights-img img{
+         margin-top: 30px;
+     }
+     /*-------------- highlight end  ----------*/
+ }
